@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'SentyGoldenBell';
+  src:url("../fonts/SentyGoldenBell.ttf") format("truetype");
+  :url("../fonts/SentyGoldenBell.woff") format("woff");
+  :url("../fonts/SentyGoldenBell.ttf") format("opentype");
+  :url("https://www.sentyfont.com/index_htm_files/SentyGoldenBell.ttf")format("truetype");
+}
+h2,h4,p{
+  font-family: 'Noto Serif TC';
+}
+.page-section {
+  padding: 100px 0;
+}
+#mainNav{
+  min-height:56px;
+  background-color:#fff;
+  font-family: 'Noto Serif TC';
+}
+#mainNav .navbar-icon{
+  height: 30px;
+}
+#mainNav .navbar-toggler{
+  font-size:80%;
+  padding:0.75rem;
+  border:0px;
+}
+#mainNav .navbar-toggler:focus{
+  outline:none;
+}
+#mainNav .navbar-brand{
+  color:#161616;
+  width:30%;
+  min-width:100px;
+  }
+#mainicon{
+  width:30px;
+  }
+#mainNav .navbar-nav .nav-item:hover{
+  color:fade(white,80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active,#mainNav .navbar-nav .nav-item:focus{
+  outline: none;
+  background-color: transparent;
+}
+@media (min-width:992px){ /*在寬度992px以下*/
+ #mainNav{
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+    }
+  #mainNav .nav-link{
+    -webkit-transition:none;
+    transition:none;
+    padding:2rem 1.5rem;
+    color: rgba(10, 10, 10, 0.71);
+    }
+  #mainNav .nav-link:hover{
+    color: rgba(117, 117, 117, 0.75);
+    }
+  #mainNav .nav-link:active{
+    color: white;
+    }
+  #mainNav.navbar-shrink{
+    background-color:#fff;
+    }
+  #mainNav.navbar-shrink .navbar-brand{
+    color:#161616;
+     }
+  #mainNav.navbar-shrink .nav-link{
+    color:#161616;
+    padding:1.5rem 1.5rem 1.25rem;
+    border-bottom:.25rem solid transparent;
+    }
+  #mainNav.navbar-shrink .nav-link:hover{
+  color:#ffbf4b;
+  }
+  #mainNav.navbar-shrink .nav-link:active{
+  color:#467370;
+  }
+  #mainNav.navbar-shrink .nav-link.active{
+  color:#e09c1e;
+  outline:0;
+  border-bottom:.25rem solid #ffbf4b;}
+  }
+
+  .masthead{
+  position:relative;
+  width:100%;
+  height:auto;
+  min-height:35rem;
+  padding:15rem 0;
+  margin-top:0px;
+
+  background-position:center;
+  background-image:url("../img/1.jpg");
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  }
+  .masthead h1{
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+  }
+
+    .about-section{
+      background-color:#fefcf7;
+      }
+    .about-section p{
+      margin-bottom:5rem;
+      }
+    #about-img{
+      max-width: 200px;
+      padding: 10px;
+    }
+    #about-header{
+        font-family: "SentyGoldenBell","Noto Serif TC";
+        font-size: 3rem;
+        color: rgb(75, 75, 75);
+    }
+
+    #about-text{
+        font-family:"Noto Serif TC";
+        margin-top: 20px;
+        letter-spacing: 0.15rem;
+    }
+    .col-sm-8{
+      margin-top:10%;
+      margin-bottom:10%;
+    }
+
+    .team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family:"Noto Serif TC";
+  letter-spacing: 0.15rem;
+  margin-left:10%;
+  margin-right:10%;
+}
+.team-member h4{
+  margin-top: 15px;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+  background-color:#fffefc;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: contain;
+background-repeat: no-repeat;
+background-position:center;　
+}
+
+@media (min-width:992px){
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+    }}
+    a{
+      text-align: center;
+    }
+    #about-img{
+      height: 10px;
+      }
+
+  body{
+    font-family:'Nunito';
+    letter-spacing:0.0625em;
+    }
+  a{
+      color:#e09c1e;
+    }
+    .lead{
+      color:#3c3c3c;
+      font-family: "Noto Serif TC";
+      font-size: 1rem;
+    }
+    .lead:hover{
+      color:#8f8f8f;
+    }
+    .lead-text{
+      color:#8f8f8f;
+      font-family: "Noto Serif TC";
+      font-size: 0.8rem;
+    }
+  a:focus,a:hover{
+    text-decoration:none;
+    color:#ffc55b;
+    }
+
+    .banner{
+      width: 100vw;
+    }
+  .bg-black{
+    background-color:#fec55f!important;
+    }
+
+    footer{
+      padding:5rem 0;
+    }
